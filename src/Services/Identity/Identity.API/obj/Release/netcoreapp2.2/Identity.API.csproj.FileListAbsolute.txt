@@ -1,0 +1,14 @@
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\bin\Release\netcoreapp2.2\Identity.API.deps.json
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\bin\Release\netcoreapp2.2\Identity.API.runtimeconfig.json
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\bin\Release\netcoreapp2.2\Identity.API.runtimeconfig.dev.json
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\bin\Release\netcoreapp2.2\Identity.API.dll
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\bin\Release\netcoreapp2.2\Identity.API.pdb
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.csproj.CoreCompileInputs.cache
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.RazorAssemblyInfo.cache
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.RazorAssemblyInfo.cs
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.AssemblyInfoInputs.cache
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.AssemblyInfo.cs
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.RazorTargetAssemblyInfo.cache
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.dll
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.pdb
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Release\netcoreapp2.2\Identity.API.csprojAssemblyReference.cache

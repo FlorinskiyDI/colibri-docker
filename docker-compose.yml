@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  identity.api:
+    image: ${DOCKER_REGISTRY}colibri.identity.api
+    build:
+      context: .
+      dockerfile: src/Services/Identity/Identity.API/Dockerfile

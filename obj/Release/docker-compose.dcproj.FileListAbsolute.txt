@@ -1,0 +1,5 @@
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\bin\Release\Identity.API.dll
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\bin\Release\Identity.API.pdb
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\obj\Release\docker-compose.dcprojAssemblyReference.cache
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\obj\Release\docker-compose.dcproj.CopyComplete
