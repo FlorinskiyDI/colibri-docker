@@ -1,0 +1,19 @@
+﻿version: '3.1'
+
+services:
+
+  colibri.identity.api:
+    image: "colibri.identity.api:B${BUILD_NUMBER}"
+    build:
+      context: .
+      dockerfile: src/Services/Identity/Identity.API/Dockerfile
+
+  integration:
+    depends_on:
+      - colibri.identity.api
+    image: "colibri.identity.api:test-B${BUILD_NUMBER}"
+    build:
+      context: .
+      dockerfile: Dockerfile.Integration
+    environment:
+      - TEAMCITY_PROJECT_NAME
