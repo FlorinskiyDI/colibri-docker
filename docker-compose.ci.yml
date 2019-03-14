@@ -14,7 +14,7 @@ services:
             - 'JENKINS_TUNNEL=http://192.168.56.1:50000'
         image: jenkins-slave
         volumes:
-            - /var/run/docker.sock  # Expose the docker daemon in the container
+            - /var/run/docker.sock:/var/run/docker.sock  # Expose the docker daemon in the container
             - /home/jenkins # Avoid mysql volume mount issue
         depends_on:
             - jenkins-master
