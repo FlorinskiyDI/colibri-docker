@@ -3,8 +3,8 @@
     stage 'Checkout'
         checkout scm
     stage 'Build & UnitTest'
-    sh "docker build -t colibri.identity.api:B${BUILD_NUMBER} -f Dockerfile ."
-    sh "docker build -t colibri.identity.api:test-B${BUILD_NUMBER} -f Dockerfile.Integration ."
+    sh "docker build -t colibri.identity.api:B${BUILD_NUMBER} -f src/Services/Identity/Identity.API/Dockerfile ."
+    sh "docker build -t colibri.identity.api:test-B${BUILD_NUMBER} -f src/Services/Identity/Identity.API/Dockerfile.Integration ."
     
     stage 'Pusblish UT Reports'
         
