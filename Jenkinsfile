@@ -1,4 +1,5 @@
-﻿node('docker') {
+﻿
+node('docker') {
 
 	stage 'myTest'
 		echo "myTest"
