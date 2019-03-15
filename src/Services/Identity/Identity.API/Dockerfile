@@ -12,7 +12,7 @@ WORKDIR /src/src/Services/Identity/Identity.API
 RUN dotnet build Identity.API.csproj -c Release -o /app
 
 FROM build as unittest
-RUN dotnet test --verbosity=normal --results-directory /TestResults/ --logger "trx;LogFileName=test_results.xml" /src/src/Services/Identity/Identity.UnitTests/Identity.UnitTests.csproj
+RUN dotnet test /src/src/Services/Identity/Identity.UnitTests/Identity.UnitTests.csproj
 
 FROM build AS publish
 RUN dotnet publish Identity.API.csproj -c Release -o /app
