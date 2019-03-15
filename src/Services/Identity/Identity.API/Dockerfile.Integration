@@ -5,7 +5,7 @@ WORKDIR /home/app
 COPY ./*.sln ./
 COPY src/Services/Identity/Identity.API/Identity.API.csproj src/Services/Identity/Identity.API/
 
-RUN for file in $(ls *.csproj); do mkdir -p src/Services/Identity/${file%.*}/ && mv $file src/Services/Identity/${file%.*}/; done
+RUN for file in $(ls src/Services/Identity/*/*.csproj); do mkdir -p src/Services/Identity/${file%.*}/ && mv $file src/Services/Identity/${file%.*}/; done
 
 RUN dotnet restore
 
