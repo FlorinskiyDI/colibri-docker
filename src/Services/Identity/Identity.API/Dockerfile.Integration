@@ -3,7 +3,7 @@
 WORKDIR /home/app
 
 COPY ./*.sln ./
-COPY ../*/*.csproj ./
+COPY ./src/Services/Identity/*/*.csproj ./
 
 RUN for file in $(ls *.csproj); do mkdir -p ./${file%.*}/ && mv $file ./${file%.*}/; done
 
