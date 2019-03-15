@@ -1,7 +1,7 @@
 ﻿FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
 COPY src/Services/Identity/Identity.API/Identity.API.csproj src/Services/Identity/Identity.API/
-COPY src/Services/Identity/Identity.API/Identity.API.csproj src/Services/Identity/Identity.UnitTests/
+COPY src/Services/Identity/Identity.UnitTests/Identity.UnitTests.csproj src/Services/Identity/Identity.UnitTests/
 
 RUN dotnet restore src/Services/Identity/Identity.API/Identity.API.csproj
 RUN dotnet restore src/Services/Identity/Identity.UnitTests/Identity.UnitTests.csproj
