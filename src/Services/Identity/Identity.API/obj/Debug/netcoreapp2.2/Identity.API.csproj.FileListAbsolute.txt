@@ -11,3 +11,4 @@ D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.A
 D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Debug\netcoreapp2.2\Identity.API.RazorTargetAssemblyInfo.cache
 D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Debug\netcoreapp2.2\Identity.API.dll
 D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Debug\netcoreapp2.2\Identity.API.pdb
+D:\2_GitWorkspace\1_FlorinskiyDI\colibri-docker\src\Services\Identity\Identity.API\obj\Debug\netcoreapp2.2\Identity.API.csprojAssemblyReference.cache
