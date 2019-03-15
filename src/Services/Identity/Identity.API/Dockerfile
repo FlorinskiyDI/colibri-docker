@@ -11,8 +11,6 @@ COPY . .
 WORKDIR /src/src/Services/Identity/Identity.API
 RUN dotnet build Identity.API.csproj -c Release -o /app
 
-RUN dotnet test --verbosity=normal --results-directory /TestResults/ --logger "trx;LogFileName=test_results.xml" ./Tests/Tests.csproj
-
 FROM build as unittest
 WORKDIR /src/src/Services/Identity/Identity.UnitTests
 
