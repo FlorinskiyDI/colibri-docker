@@ -4,6 +4,7 @@ WORKDIR /home/app
 
 COPY ./*.sln ./
 COPY src/Services/Identity/Identity.API/Identity.API.csproj src/Services/Identity/Identity.API/
+COPY src/Services/Identity/Identity.UnitTests/Identity.UnitTests.csproj src/Services/Identity/Identity.UnitTests/
 
 RUN for file in $(ls *.csproj); do mkdir -p src/Services/Identity/${file%.*}/ && mv $file src/Services/Identity/${file%.*}/; done
 
