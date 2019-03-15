@@ -6,8 +6,8 @@ COPY ./*.sln ./
 COPY ./src/Services/Identity/Identity.API/Identity.API.csproj src/Services/Identity/Identity.API/
 COPY ./src/Services/Identity/Identity.UnitTests/Identity.UnitTests.csproj src/Services/Identity/Identity.UnitTests/
 
-RUN for file in $(ls src/Services/Identity/Identity.API/*.csproj); do mkdir -p ./${file%.*}/ && mv $file ./${file%.*}/; done
-RUN for file in $(ls src/Services/Identity/Identity.UnitTests/*.csproj); do mkdir -p ./${file%.*}/ && mv $file ./${file%.*}/; done
+RUN for file in $(ls ./src/Services/Identity/Identity.API/*.csproj); do mkdir -p ./src/Services/Identity/Identity.API/${file%.*}/ && mv $file ./src/Services/Identity/Identity.API/${file%.*}/; done
+RUN for file in $(ls ./src/Services/Identity/Identity.UnitTests/*.csproj); do mkdir -p ./src/Services/Identity/Identity.UnitTests/${file%.*}/ && mv $file ./src/Services/Identity/Identity.UnitTests/${file%.*}/; done
 
 RUN dotnet restore src/Services/Identity/Identity.API/Identity.API.csproj
 RUN dotnet restore src/Services/Identity/Identity.UnitTests/Identity.UnitTests.csproj
