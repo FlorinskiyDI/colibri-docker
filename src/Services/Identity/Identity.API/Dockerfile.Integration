@@ -7,7 +7,7 @@ COPY ./src/Services/Identity/Identity.API/Identity.API.csproj src/Services/Ident
 
 RUN for file in $(ls ./src/Services/Identity/Identity.API/*.csproj); do mkdir -p ./src/Services/Identity/Identity.API/${file%.*}/ && mv $file ./src/Services/Identity/Identity.API/${file%.*}/; done
 
-RUN dotnet restore ./src/Services/Identity/Identity.API/Identity.API.csproj
+RUN dotnet restore
 
 COPY . .
 
